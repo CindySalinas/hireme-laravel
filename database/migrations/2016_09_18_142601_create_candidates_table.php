@@ -17,11 +17,11 @@ class CreateCandidatesTable extends Migration
             $table->string('website_url');
             $table->text('description');
             $table->enum('job_type', ['full', 'partial', 'freelance']);
-            $table->integer('category__id')->unsigned();
+            $table->integer('category_id')->unsigned();
             $table->boolean('available');
             $table->string('slug');
 
-            $table->foreign('category__id')->references('id')->on('categories');
+            $table->foreign('category_id')->references('id')->on('categories');
 
             $table->timestamps();
         });
