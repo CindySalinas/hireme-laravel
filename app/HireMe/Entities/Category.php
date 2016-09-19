@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace HireMe\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 

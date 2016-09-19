@@ -2,8 +2,8 @@
 
 use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
-use App\Models\User;
-use App\Models\Candidate;
+use HireMe\Entities\User;
+use HireMe\Entities\Candidate;
 use Illuminate\Support\Str;
 
 class CandidateTableSeeder extends Seeder

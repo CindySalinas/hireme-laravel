@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace HireMe\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Content extends Model
+class Candidate extends Model
 {
     //
 }

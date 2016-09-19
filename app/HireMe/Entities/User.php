@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace HireMe\Entities;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class User extends \Eloquent
 {
     use Notifiable;
 
