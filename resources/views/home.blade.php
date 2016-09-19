@@ -4,33 +4,37 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    <h1>HireMe!</h1>
+    <p>Proyecto de PHP y Laravel para buscar programadores</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Postulate</a></p>
   </div>
 </div>
 
 <div class="container">
   <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-   </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-  </div>
+  <h3>Ultimos Candidatos</h3>
+  <h4>Backend Developers</h4>
+  <!-- Table -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Tipo de Trabajo</th>
+        <th>Descripcion</th>
+        <th>Ver</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cindy Salinas</td>
+        <td>FullStack Developer</td>
+        <td>I'm web developer</td>
+        <td><button type="button" class="btn btn-primary">Ver</button></td>
+      </tr>
+    </tbody>
+  </table>
 
-  <hr>
+  <a href="#" class="text-primary">Ver todos los candidatos</a>
 
 </div> <!-- /container -->
 

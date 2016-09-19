@@ -34,6 +34,7 @@
     </nav>
     @yield('content')
     <div class="container">
+      <hr>
       <footer>
         <p>&copy; 2016 Company, Inc.</p>
       </footer>
