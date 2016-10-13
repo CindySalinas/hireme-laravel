@@ -14,5 +14,9 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:api');
+  echo "Esto es una simple prueba!!";
+});
+
+Route::post('/test', function(){
+	echo "Esto es una simple prueba!!";
+});
